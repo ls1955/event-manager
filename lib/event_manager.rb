@@ -79,5 +79,5 @@ contents.each do |row|
   save_thank_you_letter(id, form_letter)
 end
 
-puts "Peak registration hour: #{max_freq(reg_hours)}"
+puts "Peak registration hour: #{max_freq(reg_hours)}:00"
 puts "Peak day: #{weekday_to_day[max_freq(reg_weekdays)]}"
